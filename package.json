@@ -23,7 +23,7 @@
     "start:server": "netlify-lambda serve functions",
     "build": "npm-run-all --parallel build:**",
     "build:app": "react-scripts build",
-    "build:functions": "cross-env NODE_OPTIONS=--openssl-legacy-provider netlify-lambda build functions",
+    "build:functions": "node --openssl-legacy-provider node_modules/.bin/netlify-lambda build functions",
     "test": "react-scripts test --env=jsdom"
   },
   "devDependencies": {
