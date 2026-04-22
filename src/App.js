@@ -27,10 +27,8 @@ const sites = [
   { label: 'site5', url: 'https://site5.bhenning.com' },
   { label: 'site6', url: 'https://site6.bhenning.com' },
   { label: 'site7', url: 'https://site7.bhenning.com' },
-  { label: 'hsite1', url: 'https://hsite1.bhenning.com' },
-  { label: 'hsite2', url: 'https://hsite2.bhenning.com' },
-  { label: 'hsite3', url: 'https://hsite3.bhenning.com' },
-  { label: 'hsite4', url: 'https://hsite4.bhenning.com' },
+  { label: 'site8', url: 'https://site8.bhenning.com' },
+  { label: 'site9', url: 'https://site9.bhenning.com' },
 ]
 
 function App() {
