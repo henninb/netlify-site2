@@ -25,7 +25,7 @@ function App() {
       <header>
         <p className="header-eyebrow">bhenning.com / dashboard</p>
         <h1>site<em>2</em></h1>
-        <p className="header-sub">express + netlify functions — select a destination</p>
+        <p className="header-sub">react + express + netlify functions — select a destination</p>
         <div className="header-rule" />
       </header>
 
