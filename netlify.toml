@@ -5,3 +5,6 @@
   publish = "build"
   # functions build directory
   functions = "functions-build"
+
+[build.environment]
+  NODE_VERSION = "20"
