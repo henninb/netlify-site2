@@ -29,12 +29,11 @@ function App() {
       </header>
 
       <section>
-        <div className="section-label"><h2>Functions</h2></div>
+        <div className="section-label"><h2>Sites</h2></div>
         <div className="grid">
-          {examples.map(({ label, path, badge }) => (
-            <a key={path} href={path} className="card">
+          {sites.map(({ label, url, path }) => (
+            <a key={url} href={url} className="card">
               <span className="card-name">{label}</span>
-              {badge && <span className="badge">{badge}</span>}
               <span className="card-path">{path}</span>
               <span className="arrow">↗</span>
             </a>
@@ -43,11 +42,12 @@ function App() {
       </section>
 
       <section>
-        <div className="section-label"><h2>Sites</h2></div>
+        <div className="section-label"><h2>Functions</h2></div>
         <div className="grid">
-          {sites.map(({ label, url, path }) => (
-            <a key={url} href={url} className="card">
+          {examples.map(({ label, path, badge }) => (
+            <a key={path} href={path} className="card">
               <span className="card-name">{label}</span>
+              {badge && <span className="badge">{badge}</span>}
               <span className="card-path">{path}</span>
               <span className="arrow">↗</span>
             </a>
